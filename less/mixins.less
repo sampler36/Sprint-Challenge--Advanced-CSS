@@ -1,1 +1,52 @@
 // Mixins Here
+
+ul {
+    a {
+        color: #34495e;
+        text-decoration: none;
+    }
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h1{
+      a{
+        color: #34495e;
+        text-decoration: none;
+
+      }
+  }
+/*  Media Queries */
+
+@media (min-width: 500px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+    }
+    .container{
+        display: block;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+       }
+	}
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
