@@ -27,7 +27,6 @@ h1 a {
     max-width: 1150px;
   }
   .header .container {
-    display: block;
     flex-direction: column;
     align-items: center;
     width: 80%;
@@ -36,7 +35,7 @@ h1 a {
 }
 @media (min-width: 1025px) {
   .header {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 }
