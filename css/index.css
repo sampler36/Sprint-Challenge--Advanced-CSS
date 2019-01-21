@@ -12,10 +12,13 @@ h1 a {
   text-decoration: none;
 }
 /*  Media Queries */
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
   .header,
   .main-nav {
     display: flex;
+  }
+  img .sky {
+    display: none;
   }
   .header {
     flex-direction: column;
@@ -33,7 +36,7 @@ h1 a {
     margin: 0 auto;
   }
 }
-@media (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
   .header {
     flex-direction: column;
     justify-content: space-between;
